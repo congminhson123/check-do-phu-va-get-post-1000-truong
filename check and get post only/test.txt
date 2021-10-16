@@ -1,0 +1,47 @@
+            if cellDataG is not None:
+                level6 = cellDataG
+                dictObj[level1][level2][level3][level4][level5][level6] = value
+            if level1 == 'Ngân hàng' and value == '1':
+                check_nganhang = True
+            if level1 == 'Bảo hiểm' and value == '1':
+                check_baohiem = True
+            if level1 == 'vay' and value == '1':
+                check_vay = True
+            if level1 == 'thẻ' and value == '1':
+                check_the = True
+            if level1 == 'đầu tư' and value == '1':
+                check_dautu = True
+            if level1 == 'sức khỏe' and value == '1':
+                check_suckhoe = True
+            if level1 == 'Giáo dục' and value == '1':
+                check_giaoduc = True
+            if level1 == 'Du lịch' and level2 == 'Nước ngoài' and value == '1':
+                check_dulichnuocngoai = True
+            if level1 == 'Du lịch' and level2 == 'Trong nước' and value == '1':
+                check_dulichtrongnuoc = True
+            if level1 == 'du học' and value == '1':
+                check_duhoc = True
+            if level2 == 'thể thao' and value == '1':
+                check_thethao = True
+            if level2 == 'ăn uống' and value == '1':
+                check_anuong = True
+            if level2 == 'khoa học công nghệ' and value == '1':
+                check_khoahoc = True
+            if level2 == 'nghệ thuật' and value == '1':
+                check_nghethuat = True
+            if level2 == 'game' and value == '1':
+                check_game = True
+            if level2 == 'Sở thích sang' and value == '1':
+                check_sothichsang = True
+            if level2 == 'xe cộ' and value == '1':
+                check_xeco = True
+            if level2 == 'thời trang' and value == '1':
+                check_thoitrang = True
+            if level2 == 'nhạc' and value == '1':
+                check_nhac = True
+            if level2 == ('thực phẩm' or 'thực phẩm giàu dinh dưỡng') and value == '1':
+                check_thucpham = True
+            if level2 == 'phim' and value == '1':
+                check_phim = True
+            if level2 == 'làm đẹp' and value == '1':
+                check_lamdep = True
